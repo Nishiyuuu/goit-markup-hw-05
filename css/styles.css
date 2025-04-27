@@ -289,6 +289,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
   }
   
   .social-media-menu-team {
@@ -487,4 +488,77 @@ body {
     color: #f4f4fd;
     max-width: 264px;
   }
+
+  .footer-form .label-email {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-form{
+    margin-left: 80px;
+  }
+
+  .footer-form .label-email .text{
+    margin-bottom: 8px;
+  }
+
+  .footer-form .label-email .input{
+    background-color: transparent;
+    padding: 8px 16px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    width: 264px;
+  }
+
+  .footer-form .label-email .input::placeholder{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+  }
+
+  .footer-form .label-button .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+  }
+
+  .footer-form .label-button .menu{
+    background-color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+  }
+
+  .footer-form .menu{
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-form .menu .item:nth-child(2){
+    display: flex;
+    align-items: end;
+  }
+
   
+
