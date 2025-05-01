@@ -3,6 +3,7 @@
   --label: #8e8f99
   --input: #f4f4fd;
   --border: #4d5ae5;
+  --checked: #404bbf;
 }
 
 /* ========== Base Styles ========== */
@@ -710,10 +711,13 @@ body {
     color: #8e8f99;
   }
 
-  .checkbox-div .checkbox:checked .checkbox-div .label .span{
-    background-color: #404bbf;
+  input:checked + .label .span {
+    background-color: var(--checked);
     border: none;
-    fill: var(--label);
+  }
+  
+  input:checked + .label .span .svg {
+    fill: var(--input);
   }
 
   .checkbox-div .span{
