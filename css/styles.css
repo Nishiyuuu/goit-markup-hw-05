@@ -633,7 +633,7 @@ body {
     margin-bottom: 8px;
   }
 
-  .modal-form .label{
+  .modal-form-item .label{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -642,11 +642,11 @@ body {
     margin-bottom: 4px;
   }
 
-  .modal-form .label-input{
+  .modal-form-item .label-input{
     position: relative;
   }
 
-  .modal-form .label-input .input{
+  .modal-form-item .label-input .input{
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -658,10 +658,10 @@ body {
   }
 
 
-  .modal-form .label-input .input:focus{
+  .modal-form-item .label-input .input:focus{
     border-color: #4d5ae5;
   }
-  .modal-form .label-input .svg{
+  .modal-form-item .label-input .svg{
     position: absolute;
     left: 16px;
     top: 50%;
