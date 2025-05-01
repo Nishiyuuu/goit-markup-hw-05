@@ -702,18 +702,15 @@ body {
     padding: 0;
   }
 
-  .checkbox-div .checkbox{
-    visibility: hidden;
-  }
   .checkbox-div .label{
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
   }
 
-  .checkbox-div.checkbox:checked + .checkbox-div.label.span{
+  .checkbox-div .checkbox:checked .checkbox-div .label .span{
     background-color: #404bbf;
     border: none;
     fill: var(--label);
