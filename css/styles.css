@@ -716,6 +716,11 @@ body {
     border: none;
     fill: var(--input);
   }
+
+  input:checked + label .span {
+    fill: var(--input);
+  }
+  
   
   .checkbox-div .span{
     width: 16px;
