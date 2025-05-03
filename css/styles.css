@@ -714,9 +714,6 @@ body {
   input:checked + .label .span {
     background-color: var(--checked);
     border: none;
-  }
-  
-  input:checked + label .span{
     fill: var(--input);
   }
   
