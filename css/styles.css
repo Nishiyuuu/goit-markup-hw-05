@@ -711,16 +711,11 @@ body {
     color: #8e8f99;
   }
 
-  input:checked + .label .span {
+  .input-checkbox:checked + .label .span {
     background-color: var(--checked);
     border: none;
     fill: var(--input);
-  }
-
-  input:checked + label .span {
-    fill: var(--input);
-  }
-  
+  }  
   
   .checkbox-div .span{
     width: 16px;
