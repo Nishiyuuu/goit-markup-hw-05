@@ -716,7 +716,7 @@ body {
     border: none;
   }
   
-  input:checked + label .span svg {
+  input:checked + label .span{
     fill: var(--input);
   }
   
